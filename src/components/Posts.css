@@ -1,0 +1,130 @@
+.container {
+    text-align: center;
+    padding: 20px;
+   background-color:#b8b6b6;
+  }
+  .container p{
+    font-weight:150;
+    
+    font-size: medium;
+  }
+  .container h1{
+    font-weight:bold;
+    font-size:30px;
+    
+  }
+
+  .titleContent {
+    table-layout: fixed;
+    width: 100%;  
+  }
+  
+  .posts-button {
+    margin-bottom: 50px;
+    height:60px;
+    width:120px;
+    border:none;
+    box-shadow: 0px 0px 15px -5px;
+    border-radius:5px;
+    background-color: #008CBA;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+  
+  }
+  .posts-button:hover{
+    background-color:#f44336;
+    
+  } 
+  
+  .post-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    gap: 20px;
+  }
+  
+  .post-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    overflow:hidden;
+    box-shadow: 0px 0px 15px -5px;
+    background-color:white;
+    border-radius:5px;
+  }
+  .post-card p label{
+    font-weight:bold;
+  }
+  .card-item{
+    height:200px;
+    overflow: hidden;
+    margin:8px;
+    width:300px;
+    border-radius:5px;
+   background-color:#b8b6b6;
+    box-shadow:0px 0px 12px -6px;
+  }
+  .card-item:hover{
+    background-color: rgb(28, 211, 141);
+  }
+  .card-item p{
+    margin-left:10px;
+  }
+  .card-item p label{
+    font-weight:bold;
+  }
+  .post-card p{
+    text-align:left;
+    
+  }
+  .post-card button.arrow{
+   background-color:white;
+   color: white;
+  }
+  .post-card button.arrow:hover{
+    background-color:white;
+    
+    
+   }
+  .post-card button{
+    margin:5px;
+    height:40px;
+    border-radius:5px;
+    overflow:hidden;
+    border:none;
+    box-shadow: 0px 0px 10px -6px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(28, 211, 141);
+    color:white;
+     
+   
+  }
+  
+  .showdata{
+    text-align:left;
+    white-space:normal;
+
+  }
+  .post-card button:hover{
+    background-color: rgb(18, 130, 87);
+    color:whitesmoke
+  }
+  
+  .load-more-button {
+    height:60px;
+    width:130px;
+    border-radius:5px;
+    font-size: large;
+    color:whitesmoke;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .load-more-button:hover {
+    background-color: #0056b3;
+  }
